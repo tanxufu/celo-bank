@@ -225,17 +225,18 @@ button {
 
 .hero-screen__notch {
     position: absolute;
-    width: 144px;
-    height: 36px;
+    top: -12px;
     left: 50%;
     transform: translateX(-50%);
+    width: 144px;
+    height: 36px;
     border-radius: 0px 0px 18px 18px;
     background: #3C2F60;
 }
 
 .screen-card {
     position: relative;
-    margin: 52px 11px 0 11px;
+    margin: 40px 11px 0 11px;
     width: 250px;
     height: 150px;
     padding: 16px;
@@ -314,7 +315,7 @@ button {
 }
 
 .screen-transections {
-    padding: 24px 11px 42px;
+    padding: 24px 11px 30px;
 }
 
 .screen-transections__top {
@@ -380,7 +381,7 @@ button {
 
 .hero-media-deposite {
     position: absolute;
-    top: 125px;
+    top: 113px;
     left: -100px;
     display: flex;
     align-items: center;
@@ -414,7 +415,7 @@ button {
 .hero-media-secured {
     position: absolute;
     right: -74px;
-    bottom: 56px;
+    bottom: 67px;
     display: flex;
     column-gap: 11px;
     padding: 20px 14px;
