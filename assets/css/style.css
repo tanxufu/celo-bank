@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #7264D6;
+    --secondary-color: #212832;
+    --third-color: #696D76;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* common */
+a {
+    text-decoration: none;
+}
+
+input,
+select,
+textarea,
+button {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.container {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
