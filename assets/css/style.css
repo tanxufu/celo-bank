@@ -37,12 +37,13 @@ button {
 }
 
 .section-sub-heading {
+    --color: #696d77;
     display: flex;
     align-items: center;
     column-gap: 12px;
     font-weight: 400;
     line-height: 1.75;
-    color: #696d77;
+    color: var(--color);
 }
 
 .section-sub-heading::before {
@@ -50,7 +51,7 @@ button {
     display: inline-block;
     width: 18px;
     height: 2px;
-    background: #696d77;
+    background: var(--color);
 }
 
 .section-heading {
@@ -949,4 +950,78 @@ button {
 .blog-item:hover .blog-item__cta,
 .blog-item__cta:hover {
     color: #7264D6;
+}
+
+/* =============== App =============== */
+.app {
+    padding: 80px 0 100px 0;
+}
+
+.app__inner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    border-radius: 24px;
+    background: var(--primary-color);
+}
+
+.app__sub-heading {
+    --color: #fff;
+}
+
+.app__heading,
+.app__desc {
+    color: #fff;
+}
+
+.app__desc {
+    max-width: 435px;
+    text-align: center;
+    margin-top: 18px;
+    font-size: 1.6rem;
+}
+
+.app__list {
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 16px;
+}
+
+.app-item__img {
+    width: 182px;
+    height: 64px;
+}
+
+.app__decor {
+    position: absolute;
+}
+
+.app__decor-img {
+    width: 154px;
+    height: 154px;
+}
+
+.app__decor-1 {
+    top: 50px;
+    left: 112px;
+}
+
+.app__decor-2 {
+    top: 50px;
+    right: 112px;
+}
+
+.app__decor-3 {
+    bottom: 50px;
+    left: 166px;
+}
+
+.app__decor-4 {
+    bottom: 50px;
+    right: 166px;
 }
