@@ -36,6 +36,19 @@ button {
     margin: 0 auto;
 }
 
+/* logo */
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+}
+
+.logo__name {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
 .section-sub-heading {
     --color: #696d77;
     display: flex;
@@ -107,17 +120,6 @@ button {
     display: flex;
     align-items: center;
     padding: 24px 0;
-}
-
-.header-logo {
-    display: flex;
-    align-items: center;
-    column-gap: 7px;
-}
-
-.header-logo__name {
-    font-weight: 600;
-    color: var(--secondary-color);
 }
 
 .navbar__list {
@@ -1024,4 +1026,83 @@ button {
 .app__decor-4 {
     bottom: 50px;
     right: 166px;
+}
+
+/* =============== Footer =============== */
+.footer {
+    background: #FAFBFF;
+}
+
+.footer__inner {
+    padding: 100px 0 28px;
+}
+
+.footer__row {
+    display: grid;
+    grid-template-columns: auto auto auto 34.44%;
+    align-items: flex-start;
+    column-gap: 163px;
+}
+
+.footer__heading {
+    margin-bottom: 24px;
+}
+
+.footer__link {
+    display: inline-block;
+    margin-bottom: 12px;
+    font-size: 1.8rem;
+    line-height: 1.66;
+    color: var(--third-color);
+    opacity: 0.75;
+}
+
+li .footer__link:hover,
+.footer-bottom__link:hover {
+    color: var(--primary-color);
+}
+
+.subcribe-form {
+    display: flex;
+    align-items: flex-end;
+    column-gap: 20px;
+    margin-top: 28px;
+}
+
+.subcribe-form__input {
+    margin-top: 24px;
+    width: 100%;
+    height: 52px;
+    padding: 12px;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #8E919A;
+    outline-color: var(--primary-color);
+    border-radius: 6px;
+    border: 1px solid #8E919A;
+}
+
+.subcribe-form__btn {
+    outline: none;
+    cursor: pointer;
+    background: var(--primary-color);
+}
+
+.footer-bottom {
+    margin-top: 54px;
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+}
+
+.footer-bottom__link {
+    text-decoration: underline;
+}
+
+.copy-right {
+    padding: 28px 0;
+    text-align: center;
+    font-size: 1.6rem;
+    color: #FFF;
+    background: var(--primary-color);
 }
